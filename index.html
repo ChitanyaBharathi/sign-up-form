@@ -1,1 +1,68 @@
-ytfvyvhyucvyv
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="bigdiv">
+      <div>
+        <img id="greenleaf" src="pictures/pic.jpg" alt="pic of green leaf" />
+      </div>
+
+      <div id="rightdiv">
+        <h1>THE ODIN PROJECT</h1>
+        <p>
+          This is not a real online service. You know you need something like
+          this in your life to help you realize your wildest dreams. You know
+          you want to.
+        </p>
+
+        <div id="form-container">
+          <h2>Let's do this!</h2>
+          <form action="">
+            <div class="row">
+              <div>
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" name="firstname" required />
+              </div>
+              <div>
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" name="lastname" required />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div>
+                <label for="phonenumber">PHONE NUMBER</label>
+                <input type="tel" id="phonenumber" name="phonenumber" />
+              </div>
+            </div>
+            <div class="row">
+              <div>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div>
+                <label for="confirmation">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirmation"
+                  name="confirmation"
+                  required
+                />
+              </div>
+            </div>
+
+            <button id="createbtn" type="submit">Create Account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
